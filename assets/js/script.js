@@ -1,4 +1,4 @@
-'use strict';
+
 
 // modal variables
 const modal = document.querySelector('[data-modal]');
@@ -11,7 +11,6 @@ const modalCloseFunc = function () { modal.classList.add('closed') }
 // modal eventListener
 modalCloseOverlay.addEventListener('click', modalCloseFunc);
 modalCloseBtn.addEventListener('click', modalCloseFunc);
-
 
 
 
